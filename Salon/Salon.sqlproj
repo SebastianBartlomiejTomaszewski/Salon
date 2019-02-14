@@ -63,6 +63,8 @@
     <Folder Include="HR\" />
     <Folder Include="HR\Tables\" />
     <Folder Include="Security\" />
+    <Folder Include="Serwis\" />
+    <Folder Include="Serwis\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Zamowienia.sql" />
@@ -78,5 +80,10 @@
     <Build Include="HR\Tables\Zespol.sql" />
     <Build Include="HR\Tables\Stanowisko.sql" />
     <Build Include="Security\HR.sql" />
+    <Build Include="Serwis\Tables\HistoriaZamowienia.sql" />
+    <Build Include="Serwis\Tables\Zamowienia.sql" />
+    <Build Include="Serwis\Tables\StatusZamowienia.sql" />
+    <Build Include="Serwis\Tables\Serwis.sql" />
+    <Build Include="Security\Serwis.sql" />
   </ItemGroup>
 </Project>
